@@ -1,38 +1,32 @@
-# CIlib - Computational Intelligence Library (http://cilib.net)
+# CIlib - Computational Intelligence Library
 
-Copyright (C) 2003,  2010 - CIRG@UP
-Computational Intelligence Research Group (CIRG@UP)
-Department of Computer Science
-University of Pretoria
-South Africa
+[![Build Status](https://travis-ci.com/cirg-up/cilib.svg?branch=series%2F2.0.x)](https://travis-ci.com/cirg-up/cilib)
+[![Join the chat at https://gitter.im/cirg-up/cilib](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cirg-up/cilib?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Maven Central](https://img.shields.io/maven-central/v/net.cilib/cilib-core_2.12.svg)](https://maven-badges.herokuapp.com/maven-central/net.cilib/cilib-core_2.12)
+[![Javadocs](https://javadoc.io/badge/net.cilib/cilib-core_2.12.svg)](https://javadoc.io/doc/net.cilib/cilib-core_2.12)
 
 CIlib is a library of various computational intelligence
 algorithms. The goal of the project is to create a library that can be used
-and referenced by individuals.
+and referenced by individuals and researchers alike.
 
-[![Build Status](https://secure.travis-ci.org/cilib/cilib.png)](http://travis-ci.org/cilib/cilib)
+The goals of the project are:
+ * To provide a type-safe library, preventing as many runtime errors and
+   invalid data representations as possible
+ * Allow for the perfect reproduction of simulations, enabling researchers
+   to validate and reuse previous work and published results with confidence
+ * Enable composition, reducing the need to repeat implementations
 
-## Documentation
-Documentation is currently being compiled through an internal documentation
-process. The process might take a while, but feel free to aid us in our
-efforts by forking [cilib.github.com](https://github.com/cilib/cilib.github.com)
-and sending us a pull request.
+CIlib is not a "framework", instead the library is a set of a few very simple
+abstractions, and allows for a principled manner to define computational
+intelligence algorithms and uses several typeclasses such as `Functor` and
+`Monad`.
 
-## Download
-TODO
+## Documentation and Support
 
-## Bugs and feature requests
-Please feel free to sumbit any bugs and / or feature requests using the
-[issue tracker](https://github.com/cilib/cilib/issues). Additionally,
-any pull requests are welcome - feel free to fork and send us some.
-
-## Contact information
-
-CIlib has a busy community, and we encourage you to join us. The developers and
-users may be contacted using either the project site / user forums or the
-developer mailing list.
-
-    http://cilib.net                            (Web site)
-    http://groups.google.com/group/cilib-dev    (Developer mailing list)
-    http://groups.google.com/group/cilib-user   (User mailing list)
-
+* Have a look a the [website](https://cilib.net)
+* [scaladoc](https://cilib.net/api/cilib)
+* The source code of the project also contains several examples, have
+  a look in the `example` directory
+* If you run into trouble, please open an issue
+* Come join in the discussion in `#cilib` on `FreeNode`, or join
+  the [Gitter channel](https://gitter.im/cirg-up/cilib)

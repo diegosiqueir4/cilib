@@ -1,5 +1,15 @@
 data
 target
-simulator.sh
-simulator.bat
 .ensime*
+private.sbt
+.settings
+.classpath
+.cache
+.project
+readme.content
+*~
+project/travis-deploy-key*
+local.*
+.idea
+*.csv
+*.sc
